@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333;
+}
+.webbody {
+    width: 1000px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.webbody .header {
+    width: 940px;
+    margin: 0 auto;
+    padding: 23px 0px;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+}
+.cdet {
+    float: right;
+    transform: translate(0% , 50%);
+    text-align: right;
+    font: 17px Tahoma;
+}
+.cdet p {
+    color: #444444;
+}
+.nav {
+    padding: 17px 0px;
+    background-color: #2b6198;
+    width: 940px;
+    margin: 0 auto 2px;
+}
+.navlist {
+    list-style-type: none;
+}
+.navlist li { 
+    display: inline;
+    margin: 0px 9px;
+}
+.navlist li a {
+    text-decoration: none;
+    font:  17px Tahoma;
+    color: white;
+}
+.navlist li a:hover {
+    color: #fbcd73;
+}
+.navlist li .active {
+    margin-left: 16px;
+    color: #fbcd73;
+}
+.banner {
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 26px;
+}
+.txt {
+    position: absolute;
+    bottom: 32%;
+    margin-left: 66px;
+    transform: translate(-5% , 17%);
+}
+.help {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.63);
+}
+.sp {
+    color: #fdd689;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.63);
+}
+.supportbg {
+    margin-top: 5px;
+    background-color: #66666e;
+}
+.support {
+    font: 19px Tahoma;
+    color: white;
+    padding: 4px 2px 4px 6px;
+}
+.float {
+    width: 100%;
+    height: auto;
+    padding-bottom: 58px;
+}
+.content {
+    width: 600px;
+    margin-left: 30px;
+    float: left;
+}
+.cheading {
+    margin-bottom: 16px;
+}
+.cheading h2 {
+    font: 19px Arial;
+    font-weight: bold;
+    color: #444444;
+}
+.cpara p {
+    font: 13px Verdana;
+    color: #444444;
+    line-height: 130%;
+}
+.readmore a {
+    color: #ba4004;
+    text-decoration-color: #e7c6bd;
+}
+.table {
+    width: 592px;
+}
+table {
+    width: 592px;
+}
+table tr.border td {
+    border-bottom: 1px solid #535353;
+}
+.w242px {
+    width: 242px;
+    padding: 14px 0px;
+}
+.w174px {
+    padding: 14px 0px;
+    text-align: center;
+    width: 174px;
+}
+.row1 td {
+    font: 17px verdana ;
+    color: rgb(68, 68, 68);
+}
+.row td {
+    font: 13px verdana;
+    color: rgb(68, 68, 68);
+}
+.aside {
+    width: 253px;
+    margin-right: 30px;
+    margin-bottom: 58px;
+    float: right;
+}
+.listheading {
+    margin-bottom: 15px;
+}
+.listheading h2 {
+    font: 17px Arial;
+    font-weight: bold;
+    color:  #444444;
+}
+.listdiv {
+    margin-bottom: 43px;
+}
+.list ul {
+    list-style-image: url(../img/DISK.PNG);
+    margin-left: 14px;
+}
+.list ul li {
+    margin-bottom: 5px;
+}
+.list ul li a {
+    text-decoration: none;
+    color: #1b5fa4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.qcheading {
+    margin-bottom: 18px;
+}
+.qcheading h2 {
+    font: 17px Arial;
+    font-weight: bold;
+    color: #444444;
+}
+label {
+    font: 13px Verdana;
+    color: #444444;
+}
+input {
+    margin: 8px 0px;
+    width: 206px;
+    display: block;
+    height: 26px;
+    border: 1px solid #aeaeae;
+}
+textarea {
+    margin: 8px 0px;
+    width: 206px;
+    display: block;
+    height: 96px;
+    border: 1px solid #aeaeae;
+}
+.btn {
+    margin-top: 12px;
+}
+.btn button {
+    width: 91px;
+    height: 28px;
+    background-color: #2b6198;
+    color: white;
+    font: 15px Arial;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75) inset;
+    cursor: pointer;
+}
+.footer {
+    clear: both;
+    margin-top: 58px;
+    width: 1000px;
+    background-color: rgb(97, 97, 97);
+    padding: 25px 0px;
+}
+.p1 {
+    font: 13px Verdana;
+    color: white;
+    text-align: center;
+}
+.p2 {
+    font: 11px Verdana;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
